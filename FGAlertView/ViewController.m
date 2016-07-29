@@ -51,6 +51,11 @@
     NSLog(@"isDeath");
 }
 
+- (void)isRaise
+{
+    NSLog(@"isRaise");
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
