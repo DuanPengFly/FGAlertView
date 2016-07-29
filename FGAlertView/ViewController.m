@@ -36,6 +36,9 @@
 - (void)addInfiniteInfo
 {
     //测试新的branch
+    /**
+     *  天真的狗
+     */
     NSLog(@"Info Detail");
 }
 
