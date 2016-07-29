@@ -22,6 +22,13 @@
         UIImageView *avtarIV = [[UIImageView alloc] init];
         avtarIV;
     })];
+    
+    [self addInfiniteInfo];
+}
+
+- (void)addInfiniteInfo
+{
+    NSLog(@"Info Detail");
 }
 
 - (void)didReceiveMemoryWarning {
