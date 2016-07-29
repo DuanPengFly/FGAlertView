@@ -31,12 +31,18 @@
     })];
 
     [self addInfiniteInfo];
+    [self isMe];
 }
 
 - (void)addInfiniteInfo
 {
     //info detail
     NSLog(@"Info Detail");
+}
+
+- (void)isMe
+{
+    NSLog(@"isMe");
 }
 
 - (void)didReceiveMemoryWarning {
