@@ -31,14 +31,17 @@
     })];
 
     [self addInfiniteInfo];
+    [self isMe];
 }
 
 - (void)addInfiniteInfo
 {
-    /**
-     *  duanpengfei branch
-     */
     NSLog(@"Info Detail");
+}
+
+- (void)isMe
+{
+    NSLog(@"isMe");
 }
 
 - (void)didReceiveMemoryWarning {
