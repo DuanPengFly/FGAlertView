@@ -36,7 +36,7 @@
 - (void)addInfiniteInfo
 {
     /**
-     *  测试
+     *  duanpengfei branch
      */
     NSLog(@"Info Detail");
 }
