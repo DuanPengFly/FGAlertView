@@ -17,10 +17,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
     [self.view addSubview:({
         UIView *view = [[UIView alloc] init];
         view;
     })];
+
+    
+    [self.view addSubview:({
+        UIImageView *avtarIV = [[UIImageView alloc] init];
+        avtarIV;
+
+    })];
+                           
 }
 
 - (void)didReceiveMemoryWarning {
