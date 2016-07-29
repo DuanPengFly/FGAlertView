@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self.view addSubview:({
+        UIView *view = [[UIView alloc] init];
+        view;
+    })];
 }
 
 - (void)didReceiveMemoryWarning {
