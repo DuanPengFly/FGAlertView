@@ -37,7 +37,6 @@
 {
     //测试新的branch
     NSLog(@"Info Detail");
-
 }
 
 - (void)didReceiveMemoryWarning {
