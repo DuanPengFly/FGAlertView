@@ -35,7 +35,9 @@
 
 - (void)addInfiniteInfo
 {
-    //测试新的branch
+    /**
+     *  测试
+     */
     NSLog(@"Info Detail");
 }
 
