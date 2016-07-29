@@ -32,6 +32,7 @@
 
     [self addInfiniteInfo];
     [self isMe];
+    [self isDeath];
 }
 
 - (void)addInfiniteInfo
@@ -43,6 +44,11 @@
 - (void)isMe
 {
     NSLog(@"isMe");
+}
+
+- (void)isDeath
+{
+    NSLog(@"isDeath");
 }
 
 - (void)didReceiveMemoryWarning {
